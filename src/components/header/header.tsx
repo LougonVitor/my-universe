@@ -1,5 +1,5 @@
 import './header.css'
-import './header.js'
+import './header.ts'
 
 function Header() {
   return (
