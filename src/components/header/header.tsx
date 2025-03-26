@@ -1,6 +1,21 @@
+import { useEffect } from 'react'
+import { animationHeader } from './header';
 import './header.css'
 
 function Header() {
+  useEffect(() => {
+    const handleScroll = () => {
+      if(window.scrollY > window.innerHeight) {
+        animationHeader('header-on', 'header-off');
+      }else {
+        animationHeader('header-off', 'header-on');
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  });
+
   return (
     <>
       <header id='header'>
