@@ -6,9 +6,9 @@ header {
   height: 70px;
   background-color: var(--main-background-color);
   position: fixed;
-  top: 0;
+  top: -70px;
   left: 0;
-  z-index: 11000;
+  z-index: 100;
 
   & section {
     width: 50%;

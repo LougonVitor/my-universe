@@ -2,6 +2,7 @@ import { useEffect } from 'react'
 import { animationHeader } from './header';
 import './header.css'
 
+
 function Header() {
   useEffect(() => {
     const handleScroll = () => {
