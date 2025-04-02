@@ -52,8 +52,9 @@ This project was developed using the following technologies:
    http://localhost:5173
    ```
 
-## 🎨 Demo
+## 🎨 Demo and Figma
 ![alt text](./public/image-readme.png)
+Access the project in **figma** by clicking here: [Web Portfolio - Figma Project](https://www.figma.com/design/l91F37ZeInst77zcQAWXu0/Web-Portfolio?node-id=0-1&t=ZYIAeuhXpwDAm69t-1)
 
 ## 📜 License
 This project is licensed under the MIT License - feel free to use and improve it! 😊
