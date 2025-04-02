@@ -3,9 +3,18 @@ import './styles.css'
 function Home() {
   return (
     <>
-      <main>
-        <h1></h1>
-      </main>
+      <section id='home-container'>
+        <h1>Home</h1>
+
+        <div id='inner-container'>
+          <div className='box image'>
+
+          </div>
+          <div className='box info'>
+
+          </div>
+        </div>
+      </section>
     </>
   )
 }

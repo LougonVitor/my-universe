@@ -16,3 +16,9 @@ body {
   font-family: "Poppins", serif;
   background-color: var(--main-background-color);
 }
+
+main {
+  max-width: 1300px;
+  width: 90%;
+  margin: auto;
+}

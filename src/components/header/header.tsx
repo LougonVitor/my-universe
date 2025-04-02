@@ -6,7 +6,7 @@ import './header.css'
 function Header() {
   useEffect(() => {
     const handleScroll = () => {
-      if(window.scrollY > window.innerHeight) {
+      if(window.scrollY > window.innerHeight - 1) {
         animationHeader('header-on', 'header-off');
       }else {
         animationHeader('header-off', 'header-on');
